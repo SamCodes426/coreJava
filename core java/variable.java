@@ -16,6 +16,15 @@ public class variable{
 
         System.out.println(l);
 
+        
+        
+        double d = 3.14;
 
+        float f = 34.1234f;
+    
+        System.out.println(d);
+
+        System.out.println(f);
     }
+
 }

@@ -30,5 +30,19 @@ public class logicalOperator {
         System.out.println(!(5==5));
         System.out.println(!(3<1));
     
+    
+
+
+
+//================== ASSIGNMENT OPERATOR ======================//
+
+int x = 7;
+int y= 9;
+x=y;
+System.out.println(x);
+System.out.println(y);
+
+
+
     }
 }

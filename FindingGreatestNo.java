@@ -7,7 +7,7 @@ public class FindingGreatestNo {
         int y = 7;
         int z= 9;
         
-        int greater = (x>=y&&x>=z&&x>=w) ? x : (y>=x&&y>=z&&y>=w) ? y: (z>=w)? z : w;
+        int greater = (x>=y&&x>=z&&x>=w) ? x : (y>=z&&y>=w) ? y: (z>=w)? z : w;
         System.out.println("Largest number is: "+greater); 
 
     }
